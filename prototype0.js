@@ -1,34 +1,34 @@
 export const cards = [
   {
-    "Test1": "xxx",
+    "name": "Test1",
     "definition": "xxx",
     "failureMode": "xxx",
     "example": "xxx"
   },  
   
   {
-    "Test2": "xxx",
+    "name": "Test2",
     "definition": "xxx",
     "failureMode": "xxx",
     "example": "xxx"
   },
   
   {
-    "Test3": "xxx",
+    "name": "Test3",
     "definition": "xxx",
     "failureMode": "xxx",
     "example": "xxx"
   },
   
   {
-    "Test4": "xxx",
+    "name": "Test4",
     "definition": "xxx",
     "failureMode": "xxx",
     "example": "xxx"
   },
   
   {
-    "Test5": "xxx",
+    "name": "Test5",
     "definition": "xxx",
     "failureMode": "xxx",
     "example": "xxx"
