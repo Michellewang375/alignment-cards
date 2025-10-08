@@ -23,4 +23,4 @@
       "machine": "The machine consumes all the world's resources to create as many paperclips as it can."
     }
   }
-]
+];
