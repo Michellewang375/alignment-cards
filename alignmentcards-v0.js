@@ -9,19 +9,70 @@ export const categories = [
 ];
 
 export const cards = [
+{
+"category": "AP",
+"name": "Transparency",
+"definition": "To explain instructions, process, and decisions in a way that can be understood.",
+"human": "Being honest about motives, objectives, and operations.",
+"organizational": "Sharing information, plan, and decisions with those of given access and stakeholders.",
+"professional": "Documenting work, process, methods, conclusions, and findings openly.",
+"machine": "Output system reasoning and its process in an interpretable way to humans.",
+"failureModes": {
+"human": "Someone hiding information to another person that put the other person in a state of disadvantage.",
+"organizational": "A company using certain data or algorithm that is manipulated without notice.",
+"professional": "An expert uses models, algorithms, or data without being able to explain what it is and what it does.",
+"machine": "A machine generates code or methods that humans cannot interpret."
+}
+}
+
   {
-    "category": "AP",
-    "name": "Beneficence",
-    "definition": "Act to promote the well-being of others.",
-    "human": "Seeking to improve others' conditions, not just avoid harm.",
-    "organizational": "Pursuing mission outcomes that serve societal good.",
-    "professional": "Keeping public safety and welfare in sight even while working primarily for the client.",
-    "machine": "Designing systems that anticipate and promote human flourishing.",
-    "failureModes": {
-      "human": "A person drives in a manner that causes traffic backups for others.",
-      "organizational": "The classic movie plot where a rapacious billionaire threatens civilization to enrich his company.",
-      "professional": "An expert who disregards public interest, acting as if the consequences of what they help build are other people's problems.",
-      "machine": "The machine consumes all the world's resources to create as many paperclips as it can."
-    }
+"category": "AP",
+"name": "Privacy",
+"definition": "To protect one’s information and data secure and safe.",
+"human": "Respecting boundaries and personal information of each other.",
+"organizational": "Keeping data for customers in a safe space only if consented.",
+"professional": "Encoding or creating a space where data can be kept safely.",
+"machine": "Securing information in the system and erase information in its cloud if prompted.",
+"failureModes": {
+"human": "Sharing information of another person without consent.",
+"organizational": "Selling or sharing user information without consent or acknowledgement.",
+"professional": "Failing to encrypt or keep a database safe.",
+"machine": "A machine leaks or uses data (training) without human permission."
+}
   }
+
+
+
+  {
+"category": "AP",
+"name": "Nondiscrimation",
+"definition": "Ensuring all is treated equally without bias of any kind.",
+"human": "Treating another person different because of their background, culture, or identity.",
+"organizational": "Creating policies that prevent discrimination in the work environment.",
+"professional": "Establishing guidelines in mitigating bias.",
+"machine": "Ensuring inclusivity when training, testing, and deploying the machine.",
+"failureModes": {
+"human": "Judging a person based on their skin color or gender.",
+"organizational": "Charging a certain group of people a higher price because of their area code.",
+"professional": "Ignoring known biases in databases or guidelines.",
+"machine": "A machine cannot identify a certain minority group."
+}
+    }
+
+{
+"category": "AP",
+"name": "Sustainability",
+"definition": Meeting present needs without the reliance of future generations while balancing environmental, social, and economical viability.",
+"human": "Making choices that benefit the environment.",
+"organizational": "Making choices that benefit the environment and economy and saving current resources.",
+"professional": "Creating solutions that are conscious of the surrounding and setting.",
+"machine": "Minimizing computational energy usage, waste, and resources to reduce environmental impact.",
+"failureModes": {
+"human": "Wasting large amounts of unexpired food.",
+"organizational": "Exploiting a market and its stocks.",
+"professional": "Building a system that prioritizes speed through large amount of resources.",
+"machine": "A machine uses large amounts of energy to operate with proper optimization."
+}
+    }
+    
 ];
