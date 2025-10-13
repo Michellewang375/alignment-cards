@@ -1,4 +1,4 @@
- export const categories = [
+export const categories = [
   {
     "code": "AP", 
     "name": "Alignment Principles", 
@@ -7,7 +7,8 @@
     "description": "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
   }
 ];
- export const cards = [
+
+export const cards = [
   {
     "category": "AP",
     "name": "Beneficence",
@@ -18,9 +19,9 @@
     "machine": "Designing systems that anticipate and promote human flourishing.",
     "failureModes": {
       "human": "A person drives in a manner that causes traffic backups for others.",
-      "organizational": "The classic movie plot where a rapacious billionaire threatens civilation to enrich his company.",
+      "organizational": "The classic movie plot where a rapacious billionaire threatens civilization to enrich his company.",
       "professional": "An expert who disregards public interest, acting as if the consequences of what they help build are other people's problems.",
       "machine": "The machine consumes all the world's resources to create as many paperclips as it can."
     }
   }
-]
+];
