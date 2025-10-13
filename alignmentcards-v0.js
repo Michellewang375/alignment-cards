@@ -115,7 +115,7 @@ export const cards = [
   "category": "AB",
   "name": "Team based work setting",
   "definition": "Hoped for: setting challenging and stretching objectives in team settings, we expect to be rewarded with equal payment or recognition. Instead, we are rewarded by achieving goals, making/hitting numbers, and rewarded for individuality.",
- "reversePrinciple": A rule could be to pay by quality of work, but this would require a measurement of what quality looks like.",
+ "reversePrinciple": "A rule could be to pay by quality of work, but this would require a measurement of what quality looks like.",
   "human": "People are expected to collaborate in overcoming barriers, but many times are instead rewarded through competition or rated based off self performance.",
   "organizational": "Organization often emphasizes on collaboration, but rewards on self performance or status instead.",
   "professional": "Professionals bring integrity and responsibility, but are often rewarded for efficiency and profitability.",
