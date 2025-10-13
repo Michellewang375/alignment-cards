@@ -74,5 +74,38 @@ export const cards = [
 "machine": "A machine uses large amounts of energy to operate with proper optimization."
 }
     }
+
+
+{
+"category": "AP",
+"name": "Human Oversight",
+"definition": "Keeping something in check through supervision.",
+"human": "Seeking advice or double checking each other’s work.",
+"organizational": "Creating review systems to check work.",
+"professional": "Having human approval in an expert setting.",
+"machine": "Allowing human override and maintain a tool instead of replacement.",
+"failureModes": {
+"human": "Executing a task alone without notifying others.",
+"organizational": "Executing a task purely using machine and no human supervision.",
+"professional": "Letting a system run without testing.",
+"machine": "Causing harmful actions by ignoring human intervention."
+}
+}
+
+{
+"category": "AP",
+"name": "Responsibility",
+"definition": "The act of taking accountability in one's actions and owning up to the consequences it might bring.",
+"human": "Owning up to consequences and learning from mistakes.",
+"organizational": "Taking and applying feedback and take liability for their products.",
+"professional": "Maintaining integrity for their work.",
+"machine": "Following decisions, understanding and learning the harm it creates if created.",
+"failureModes": {
+"human": "Blaming one another for mistakes.",
+"organizational": "Pushing fault to the user for an accident.",
+"professional": "Ignoring misuse.",
+"machine": "Creating harm with no explanation of how and what it did in creating the damage."
+}
+    }
     
 ];
