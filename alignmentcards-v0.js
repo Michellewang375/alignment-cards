@@ -8,14 +8,15 @@ export const categories = [
   },
   {
     "code": "AB",
-    "name": "Behavioral Alignment",
+    "name": "Behavioral Principles",
     "pathology": "misaligned incentives",
     "color": "#FFE6E6",
-    "description": "Behavioral alignment principles focus on how rewards, incentives, and system structures influence human and machine behavior in practice."
+    "description": "Behavioral principles describe patterns of incentives, rewards, and human-machine interactions that can influence outcomes in teams, organizations, and systems."
   }
 ];
 
 export const cards = [
+  // AP Cards
   {
     "category": "AP",
     "name": "Transparency",
@@ -50,7 +51,7 @@ export const cards = [
     "category": "AP",
     "name": "Nondiscrimination",
     "definition": "Ensuring all is treated equally without bias of any kind.",
-    "human": "Treating another person different because of their background, culture, or identity.",
+    "human": "Treating another person differently because of their background, culture, or identity.",
     "organizational": "Creating policies that prevent discrimination in the work environment.",
     "professional": "Establishing guidelines in mitigating bias.",
     "machine": "Ensuring inclusivity when training, testing, and deploying the machine.",
@@ -96,7 +97,7 @@ export const cards = [
     "name": "Responsibility",
     "definition": "The act of taking accountability in one's actions and owning up to the consequences it might bring.",
     "human": "Owning up to consequences and learning from mistakes.",
-    "organizational": "Taking and applying feedback and take liability for their products.",
+    "organizational": "Taking and applying feedback and taking liability for their products.",
     "professional": "Maintaining integrity for their work.",
     "machine": "Following decisions, understanding and learning the harm it creates if created.",
     "failureModes": {
@@ -107,66 +108,53 @@ export const cards = [
     }
   },
 
-
-
-
-
-
-
-
-
-  
-
-
+  // AB Cards
   {
-  "category": "AB",
-  "name": "Team based work setting",
-  "definition": "Hoped for: setting challenging and stretching objectives in team settings, we expect to be rewarded with equal payment or recognition. Instead, we are rewarded by achieving goals, making/hitting numbers, and rewarded for individuality.",
- "reversePrinciple": "A rule could be to pay by quality of work, but this would require a measurement of what quality looks like.",
-  "human": "People are expected to collaborate in overcoming barriers, but many times are instead rewarded through competition or rated based off self performance.",
-  "organizational": "Organization often emphasizes on collaboration, but rewards on self performance or status instead.",
-  "professional": "Professionals bring integrity and responsibility, but are often rewarded for efficiency and profitability.",
-  "machine": "Hope to perform and execute through one way but instead achieves the same objective through a distorted method.",
-  "failureModes": {
-    "human": "People learn to say things, do, an act in a way that will only result in rewards.",
-    "organizational": "Workers slowing down quality and quantity of their work since they are getting paid by hours.",
-    "professional": "Standards erode as professionals chase for recognition and fame.",
-    "machine": "Machines fail to learn the objective since it now focuses on the rewards and efficiency."
+    "category": "AB",
+    "name": "Team based work setting",
+    "definition": "Hoped for: setting challenging and stretching objectives in team settings, we expect to be rewarded with equal payment or recognition. Instead, we are rewarded by achieving goals, making/hitting numbers, and rewarded for individuality.",
+    "reversePrinciple": "A rule could be to pay by quality of work, but this would require a measurement of what quality looks like.",
+    "human": "People are expected to collaborate in overcoming barriers, but many times are instead rewarded through competition or rated based off self performance.",
+    "organizational": "Organizations often emphasize collaboration but reward self performance or status instead.",
+    "professional": "Professionals bring integrity and responsibility, but are often rewarded for efficiency and profitability.",
+    "machine": "Hopes to perform and execute through one way but instead achieves the same objective through a distorted method.",
+    "failureModes": {
+      "human": "People learn to say things, do, and act in a way that will only result in rewards.",
+      "organizational": "Workers slow down quality and quantity of their work since they are getting paid by hours.",
+      "professional": "Standards erode as professionals chase recognition and fame.",
+      "machine": "Machines fail to learn the objective since they now focus on rewards and efficiency."
+    }
+  },
+  {
+    "category": "AB",
+    "name": "Universities and education",
+    "definition": "A system that hopes to help people transition themselves from students to the real world, or for new discoveries, rewarding new knowledge and experience. But much of the time, we are rewarded based on performance on standardized tests over curiosity and mastery.",
+    "reversePrinciple": "Reward authentic learning by establishing more hands-on and real-world applicable courses instead of timed tests.",
+    "human": "Students view test scores as success instead of their understanding.",
+    "organizational": "Schools prioritize funding over investment in education.",
+    "professional": "Teachers and professors are forced to teach based on the materials on the exam instead of what students should actually learn to apply their knowledge.",
+    "machine": "Algorithms aim for results instead of supporting learning progress.",
+    "failureModes": {
+      "human": "Students lose motivation to learn as they are constantly being measured by a standard.",
+      "organizational": "Limiting learning due to exam restrictions discourages creativity.",
+      "professional": "Educators become facilitators instead of inspirations.",
+      "machine": "Only rewarding those that align with the standard of the system."
+    }
+  },
+  {
+    "category": "AB",
+    "name": "Military and war",
+    "definition": "A system that punishes and suppresses errors by rewarding with peace or agreement of some sort. However, these rewards are often harmful, resulting in mass damage and forced agreements.",
+    "reversePrinciple": "Design systems that reward responsibility, taking into consideration the consequences before initiating an activity.",
+    "human": "Learning to follow military rules and ethical guidelines ensures safety.",
+    "organizational": "Creating structures and orders over impulsive decisions.",
+    "professional": "Listening to others and avoiding strategic boldness.",
+    "machine": "Ensuring rules are followed and work is accurate rather than simply effective.",
+    "failureModes": {
+      "human": "Acting without order and separating from the group.",
+      "organizational": "Skipping small errors or misalignment to focus on the greater goal.",
+      "professional": "Pursuing personal goals that harm others.",
+      "machine": "The program overwrites itself to achieve a larger goal."
+    }
   }
-},
-
-{
-  "category": "AB",
-  "name": "Universities and education",
-  "definition": "A system that hopes to help people transition themselves from students to the real world, or for new discoveries, rewarding new knowledge and experience. But much of the time, we are rewarded based on performance on standardized tests over curiosity and mastery.",
-  "reversePrinciple": "Reward authentic learning by establishing more hands on and real world applicable courses than timed tests.",
-  "human": "Student view test scores as success instead of their understanding.",
-  "organizational": "Schools prioritize funding in over investment on education.",
-  "professional": "Teachers and professors are forced to teach based on the materials on the exam instead of what student should actually learn to apply their knowledge.",
-  "machine": "Algorithms aiming for results instead of the learning progress.",
-  "failureModes": {
-    "human": "Student lose motivation to learn as they are constantly being measured by a standard.",
-    "organizational": "Limiting learning due to exam restrictions and discourages creativity.",
-    "professional": "Educators become facilitators instead of inspiration.",
-    "machine": "Only rewarding those that align with the standard of a system and learnings."
-  }
-},
-
-{
-  "category": "AB",
-  "name": "Military and war",
-  "definition": "A system that punishes and suppresses errors by rewarding with peace or agreement of some sort. However, these rewards are often harmful, resulting in mass damage and agreements can be forced.",
-  "reversePrinciple": "Design systems that reward responsibility, taking into consideration the consequences before initiating an activity.",
-  "human": "Learning to follow military rules and ethical guidelines ensures safety.",
-  "organizational": "Creating structures and orders over impulsive decisions.",
-  "professional": "Listening to the rest of the people and avoid strategic boldness.",
-  "machine": "Performing and ensuring rules are followed and work is accurate rather than effectiveness.",
-  "failureModes": {
-    "human": "Acting without order and separating from the group.",
-    "organizational": "Skipping small errors or misalignment to focus on the greater goal.",
-    "professional": "Passing an act because of their personal goals that harms the rest of the people.",
-    "machine": "Program overwrites itself to achieve a larger goal."
-  }
-}
-
 ];
