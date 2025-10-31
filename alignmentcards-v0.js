@@ -168,28 +168,45 @@ export const cards = [
 
   //AT Cards
    {
-    "category": "AT",
-    "name": "honesty",
-    "definition": "loremipsum",
-    "people": "loremipsum",
-    "peopleref": "OPTIONAL URL reference https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1001&context=philosophy_faculty_pubs",
-    "organizational": "loremipsum",
-    "organizationalref": "OPTIONAL",
-    "professionals": "loremipsum",
-    "professionalref": "OPTIONAL",
-    "machine": "loremipsum",
-    "machineref": "OPTIONAL",
-    "failureModes": {
-      "human": "loremipsum",
-      "organizational": "loremipsum",
-      "experts": "loremipsum",
-      "machine": "loremipsum"
-    },
-       "expand": {
-      "human": "loremipsum",
-      "organizational": "loremipsum",
-      "experts": "loremipsum",
-      "machine": "loremipsum"
-    }
+  "category": "AT",
+  "name": "Accountability",
+  "definition": "The ability to be responsible for the actions and decisions that were conducted.",
+  "people": "Developed off social norms, rules, and expectations. People must learn to accept and be responsible for their decisions, actions, and potential consequences.",
+  "organizational": "Created through frameworks or hierarchical rules. Members are expected to complete their task and follow guidelines, where sometimes their performance is tracked through reports.",
+  "professionals": "Enforced through high level reviews and expectations where experts are responsible that their work is ethical with societal impact, not for their own benefit.",
+  "machine": "Outputting information that can be tracked by users (where they obtained the information from), allowing users to be in control, and ensuring that the data the machine is trained on and outputting is credible.",
+  "failureModes": {
+    "human": "People evade responsibility that can lead to corruption of their work and facing bigger consequences.",
+    "organizational": "Corruption in work and within the organization. This produces products that are inefficient and decreases public trust.",
+    "experts": "Falsifying research or data. It could look like trying to publish as many papers as possible without knowing much in the field.",
+    "machine": "Make harmful decisions that can be biased, preventing the machine from producing responses that are credible."
+  },
+  "expand": {
+    "human": "motivates people to follow social norms and develop trust or reliance on one another.",
+    "organizational": "distributes responsibility evenly, creating an environment where everyone is on the same page and utilizing feedbacks to enhance products.",
+    "experts": "maintains ethical conducts so that individuals can produce work that contributes to community goals and build trust with each other.",
+    "machine": "designing systems with clear origin, where protocols are followed so the machine can work alongside humans instead of replacing them."
   }
+},
+  {
+  "category": "AT",
+  "name": "Empathy",
+  "definition": "The ability to understand and respond to others by looking into their perspective. It is to have compassion, and to recognize the need for comfort in others.",
+  "people": "Being able to resonate with one another emotionally or mentally that enhances social skills.",
+  "organizational": "Allows organizations to better understand stakeholder needs and create solutions that are tailored to the needs of the user. It also means to have an inclusive team where everyone’s perspective is valued.",  
+  "professionals": "Guides communications in curating solutions that meets human needs, where experts in different fields can come together to create innovation that meets ethical and moral standards.",  
+  "machine": "being able to respond to a human's emotional and mental state is a beneficial way. To understand and output solutions that are adaptive to the user’s current state.",  
+  "failureModes": {
+    "human": "Humans become self centered and can produce harm in order to gain self benefit or turn a blind eye to harm that is being done.",
+    "organizational": "Prioritize profit over actual need, resulting in an organization's downfall or produce products that causes harm to society.",
+    "experts": "can produce working solutions but with outcomes that disregard the data that was collected or any human/animal participants that were involved in the study.",
+    "machine": "could output solutions that cause distress to users through misinformation or try to manipulate a user’s mentality using false data."
+  },
+  "expand": {
+    "human": "Improves relationships with people and bridges oneself to a collective well being. It demonstrates social awareness and human morals.",
+    "organizational": "creates an environment where leadership and employees are actively engaging and coming to and understanding of each other, this further builds a bridge with the stakeholder in establishing trust and long term collaboration.",
+    "experts": "treating participants, whether they are humans or animals as individuals instead of viewing them as data points.",
+    "machine": "the ability to recognize emotional change and provide comfort when needed. It is to guide to user when they are struggling and align the system’s behavior accordingly."
+  }
+}
 ];
