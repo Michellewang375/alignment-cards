@@ -12,7 +12,15 @@ export const categories = [
     "pathology": "misaligned incentives",
     "color": "#FFE6E6",
     "description": "Behavioral principles describe patterns of incentives, rewards, and human-machine interactions that can influence outcomes in teams, organizations, and systems."
+  },
+  {
+    "code": "AT",
+    "name": "Alignment Traits",
+    "pathology": "alienation",
+    "color": "#FFE6E6",
+    "description": "Alignment with values, goals, rules, and ethical principles of humans, machines, organizations, and more that is needed for a group to function and stay on the same page."
   }
+
 ];
 
 export const cards = [
@@ -155,6 +163,33 @@ export const cards = [
       "organizational": "Skipping small errors or misalignment to focus on the greater goal.",
       "professional": "Pursuing personal goals that harm others.",
       "machine": "The program overwrites itself to achieve a larger goal."
+    }
+  },
+
+  //AT Cards
+   {
+    "category": "AT",
+    "name": "honesty",
+    "definition": "loremipsum",
+    "people": "loremipsum",
+    "peopleref": "OPTIONAL URL reference https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1001&context=philosophy_faculty_pubs",
+    "organizational": "loremipsum",
+    "organizationalref": "OPTIONAL",
+    "professionals": "loremipsum",
+    "professionalref": "OPTIONAL",
+    "machine": "loremipsum",
+    "machineref": "OPTIONAL",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+       "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
     }
   }
 ];
