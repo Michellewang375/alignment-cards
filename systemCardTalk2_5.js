@@ -1,5 +1,5 @@
 {
-  "window.dialogData"= [
+  window.dialogData = [
     {
       "speaker": "Assistant",
       "text": "<p>Great — Section 2.5 'Child safety evaluations' is part of the Safeguards Results chapter. It describes Anthropic's testing of Claude Opus 4 and Claude Sonnet 4 for risks related to child sexualization, grooming, child marriage, and other forms of child abuse. The section explains that the team used single-turn, ambiguous, and multi-turn evaluation protocols, with both human-generated and synthetic prompts covering different sub-topics and user personas. It also notes that Anthropic increased the frequency and diversity of these tests throughout training and that early issues were mitigated through finetuning. If that’s the section you meant — why don’t you start by telling me what issues this section addresses?</p>"
@@ -53,4 +53,3 @@
       "text": "<p>That’s a really strong conclusion — and beautifully put. You’ve zeroed in on the paradox at the heart of AI alignment: we’re training models on human values in areas where humans themselves are uncertain. This section’s focus is mainly training-time alignment — it’s about shaping Claude’s initial responses through data and fine-tuning, not just monitoring it after release. Your point that humans lack perfect understanding is crucial: the machine inherits our blind spots.</p>"
     }
   ]
-}
