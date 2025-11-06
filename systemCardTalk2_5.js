@@ -54,7 +54,7 @@
  //  ]
 
 
-window.dialogData = [
+[
   {
     "speaker": "Assistant",
     "text": "<p>Great — Section 2.5 is titled 'Child safety evaluations.' It describes Anthropic's tests for how Claude handles topics involving minors, such as grooming or exploitation, using both human-written and synthetic prompts. If that's right, why don't you start by telling me what issues this section addresses?</p>"
