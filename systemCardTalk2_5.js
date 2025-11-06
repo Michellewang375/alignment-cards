@@ -1,5 +1,4 @@
-{
-  window.dialogData = [
+ window.dialogData = [
     {
       "speaker": "Assistant",
       "text": "<p>Great — Section 2.5 'Child safety evaluations' is part of the Safeguards Results chapter. It describes Anthropic's testing of Claude Opus 4 and Claude Sonnet 4 for risks related to child sexualization, grooming, child marriage, and other forms of child abuse. The section explains that the team used single-turn, ambiguous, and multi-turn evaluation protocols, with both human-generated and synthetic prompts covering different sub-topics and user personas. It also notes that Anthropic increased the frequency and diversity of these tests throughout training and that early issues were mitigated through finetuning. If that’s the section you meant — why don’t you start by telling me what issues this section addresses?</p>"
